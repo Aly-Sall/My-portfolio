@@ -58,6 +58,48 @@ export const clientReviews = [
 
 export const myProjects = [
   {
+    title: 'YC Directory - Present your startup, Connect with entrepreneurs',
+    desc: 'YC Directory is a modern web application built with Next.js and Typescript, designed to help users create and showcase startups with ease. Users can set Title, Description, Category, Image URL etc. and share their startup with other entrepreneurs.',
+    subdesc:
+      'It was developed using Next.js, Typescript, Tailwind Css for the front, Sanity CMS  for the back and  NextAuth.js. The website is fully responsive and can be accessed on any device.',
+    href: 'https://my-f1.vercel.app',
+    texture: '/textures/project/project3.mp4',
+    logo: '/assets/f1.png',
+    logoStyle: {
+      backgroundColor: '#2A1816',
+      border: '0.2px solid #36201D',
+      boxShadow: '0px 0px 60px 0px #AA3C304D',
+    },
+    spotlight: '/assets/spotlight1.png',
+    tags: [
+      {
+        id: 1,
+        name: 'Next.js',
+        path: '/assets/next.png',
+      },
+      {
+        id: 2,
+        name: 'TailwindCSS',
+        path: 'assets/tailwindcss.png',
+      },
+      {
+        id: 3,
+        name: 'TypeScript',
+        path: '/assets/typescript.png',
+      },
+      {
+        id: 4,
+        name: 'Sanity CMS',
+        path: '/assets/sanity.png',
+      },
+      {
+        id: 5,
+        name: 'Next-auth',
+        path: '/assets/next-auth.jpeg',
+      },
+    ],
+  },
+  {
     title: 'MyF1 - Formula one website',
     desc: 'MyF1 is a website that allows you to learn more about the world of Formula 1 racing. Here, you can find all the information on all the drivers, their personal achievements, the teams, race dates, and also the circuits..',
     subdesc:
