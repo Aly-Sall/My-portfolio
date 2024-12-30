@@ -62,7 +62,7 @@ export const myProjects = [
     desc: 'YC Directory is a modern web application built with Next.js and Typescript, designed to help users create and showcase startups with ease. Users can set Title, Description, Category, Image URL etc. and share their startup with other entrepreneurs.',
     subdesc:
       'It was developed using Next.js, Typescript, Tailwind Css for the front, Sanity CMS  for the back and  NextAuth.js. The website is fully responsive and can be accessed on any device.',
-    href: 'https://my-f1.vercel.app',
+    href: 'https://yg-startup.vercel.app',
     texture: '/textures/project/project3.mp4',
     logo: '/assets/f1.png',
     logoStyle: {
